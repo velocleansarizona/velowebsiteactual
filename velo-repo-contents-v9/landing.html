@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commercial Cleaning & Property Maintenance | Maricopa County, AZ | Velo Property Solutions</title>
+  <meta name="description" content="Professional commercial cleaning and property maintenance in Maricopa County, AZ. Janitorial, office, medical, warehouse, pressure washing, landscaping, and more. Get a free quote today.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- WhatConverts Tracking -->
+  <script>var $wc_load=function(a){return JSON.parse(JSON.stringify(a))},$wc_leads=$wc_leads||{doc:{url:$wc_load(document.URL),ref:$wc_load(document.referrer),search:$wc_load(location.search),hash:$wc_load(location.hash)}};</script>
+  <script src="//s.ksrndkehqnwntyxlhgto.com/169027.js"></script>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BG8MQ67Q6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8BG8MQ67Q6');
+  </script>
+  <!-- Google Ads Conversion Tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17166136199"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17166136199');
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* =============================================
+       LANDING PAGE SPECIFIC STYLES
+       ============================================= */
+
+    /* Sticky header — logo + phone only */
+    .lp-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--white);
+      box-shadow: 0 2px 16px rgba(27,52,97,0.12);
+      padding: 12px 0;
+    }
+    .lp-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .lp-header img { height: 52px; width: auto; }
+    .lp-header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .lp-header-tagline {
+      font-family: var(--font-heading);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--gray);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .lp-header-tagline i { color: var(--orange); }
+    .lp-call-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--orange);
+      color: var(--white);
+      padding: 12px 24px;
+      border-radius: 40px;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.05rem;
+      text-decoration: none;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .lp-call-btn:hover { background: var(--orange-dark); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(224,127,30,0.35); }
+    .lp-call-btn i { font-size: 1rem; }
+
+    /* Hero */
+    .lp-hero {
+      background: linear-gradient(135deg, #0E1E3D 0%, var(--navy) 50%, var(--navy-light) 100%);
+      padding: 60px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .lp-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M0 0h40v40H0V0zm40 40h40v40H40V40z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .lp-hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 60px;
+      align-items: center;
+    }
+    .lp-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 40px;
+      padding: 7px 18px;
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 22px;
+    }
+    .lp-hero-badge i { color: var(--orange-light); font-size: 0.75rem; }
+    .lp-hero-content h1 {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1.18;
+      margin-bottom: 20px;
+    }
+    .lp-hero-content h1 span { color: var(--orange-light); }
+    .lp-hero-content p {
+      font-size: 1.08rem;
+      color: rgba(255,255,255,0.82);
+      margin-bottom: 32px;
+      line-height: 1.75;
+    }
+    .lp-hero-phone {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--orange);
+      color: var(--white);
+      padding: 18px 36px;
+      border-radius: 50px;
+      font-family: var(--font-heading);
+      font-weight: 900;
+      font-size: 1.4rem;
+      text-decoration: none;
+      transition: var(--transition);
+      margin-bottom: 20px;
+      display: flex;
+    }
+    .lp-hero-phone:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(224,127,30,0.4); }
+    .lp-hero-phone i { font-size: 1.2rem; }
+    .lp-hero-or {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 18px 0;
+      color: rgba(255,255,255,0.45);
+      font-size: 0.82rem;
+      font-family: var(--font-heading);
+      letter-spacing: 1px;
+    }
+    .lp-hero-or::before, .lp-hero-or::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(255,255,255,0.15);
+    }
+    .lp-hero-trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+    .lp-trust-pill {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 30px;
+      padding: 7px 16px;
+      font-family: var(--font-heading);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.85);
+    }
+    .lp-trust-pill i { color: var(--orange-light); font-size: 0.75rem; }
+
+    /* Hero Form */
+    .lp-hero-form {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 36px 32px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.35);
+    }
+    .lp-form-header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .lp-form-header h3 {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .lp-form-header p {
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+    .lp-form-header .lp-form-stars {
+      display: flex;
+      justify-content: center;
+      gap: 3px;
+      margin-bottom: 8px;
+    }
+    .lp-form-header .lp-form-stars i { color: #FFC107; font-size: 0.9rem; }
+    .lp-form-header .lp-form-rating {
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      color: var(--gray);
+      font-weight: 600;
+    }
+    .lp-hero-form .form-group { margin-bottom: 14px; }
+    .lp-hero-form input,
+    .lp-hero-form select,
+    .lp-hero-form textarea {
+      width: 100%;
+      padding: 13px 16px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 0.93rem;
+      color: var(--gray-dark);
+      transition: var(--transition);
+      background: var(--white);
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .lp-hero-form input:focus,
+    .lp-hero-form select:focus,
+    .lp-hero-form textarea:focus {
+      outline: none;
+      border-color: var(--navy);
+      box-shadow: 0 0 0 3px rgba(27,52,97,0.08);
+    }
+    .lp-hero-form textarea { resize: none; height: 80px; }
+    .lp-form-submit {
+      width: 100%;
+      padding: 16px;
+      background: var(--orange);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .lp-form-submit:hover { background: var(--orange-dark); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(224,127,30,0.4); }
+    .lp-form-privacy {
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--gray);
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+    .lp-form-privacy i { color: var(--orange); }
+    .form-success {
+      display: none;
+      background: #F0FFF4;
+      border: 1px solid #9AE6B4;
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      color: #276749;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 18px;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Trust Bar */
+    .lp-trust-bar { background: var(--orange); padding: 18px 0; }
+    .lp-trust-bar .trust-items { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 16px; }
+    .lp-trust-bar .trust-item { display: flex; align-items: center; gap: 12px; color: var(--white); }
+    .lp-trust-bar .trust-item i { font-size: 1.5rem; opacity: 0.9; }
+    .lp-trust-bar .trust-item div { display: flex; flex-direction: column; }
+    .lp-trust-bar .trust-item strong { font-family: var(--font-heading); font-size: 0.9rem; font-weight: 700; }
+    .lp-trust-bar .trust-item span { font-size: 0.77rem; opacity: 0.85; }
+    .lp-trust-divider { width: 1px; height: 36px; background: rgba(255,255,255,0.3); }
+
+    /* Services */
+    .lp-services { padding: 80px 0; background: var(--gray-light); }
+    .lp-services-header { text-align: center; margin-bottom: 48px; }
+    .lp-services-header h2 { font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
+    .lp-services-header p { color: var(--gray); font-size: 1rem; max-width: 580px; margin: 0 auto; }
+    .lp-services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .lp-service-item {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    .lp-service-item:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--orange); }
+    .lp-service-item-icon {
+      width: 46px;
+      height: 46px;
+      background: rgba(224,127,30,0.1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: var(--transition);
+    }
+    .lp-service-item:hover .lp-service-item-icon { background: var(--orange); }
+    .lp-service-item-icon i { font-size: 1.1rem; color: var(--orange); transition: var(--transition); }
+    .lp-service-item:hover .lp-service-item-icon i { color: var(--white); }
+    .lp-service-item span {
+      font-family: var(--font-heading);
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.35;
+    }
+
+    /* Why Velo */
+    .lp-why { padding: 80px 0; background: var(--white); }
+    .lp-why-header { text-align: center; margin-bottom: 52px; }
+    .lp-why-header h2 { font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
+    .lp-why-header p { color: var(--gray); font-size: 1rem; max-width: 560px; margin: 0 auto; }
+    .lp-why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+    .lp-why-card {
+      text-align: center;
+      padding: 36px 24px;
+      border-radius: var(--radius-lg);
+      background: var(--gray-light);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    .lp-why-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .lp-why-card-icon {
+      width: 68px;
+      height: 68px;
+      background: var(--navy);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .lp-why-card-icon i { font-size: 1.6rem; color: var(--orange); }
+    .lp-why-card h3 { font-family: var(--font-heading); font-size: 1rem; font-weight: 800; color: var(--navy); margin-bottom: 10px; }
+    .lp-why-card p { font-size: 0.88rem; color: var(--gray); line-height: 1.65; }
+
+    /* Reviews */
+    .lp-reviews { padding: 80px 0; background: var(--gray-light); }
+    .lp-reviews-header { text-align: center; margin-bottom: 48px; }
+    .lp-reviews-header h2 { font-family: var(--font-heading); font-size: 2.2rem; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
+    .lp-reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 40px; }
+
+    /* Bottom CTA */
+    .lp-bottom-cta {
+      background: linear-gradient(135deg, #0E1E3D 0%, var(--navy) 100%);
+      padding: 80px 0;
+    }
+    .lp-bottom-cta-grid {
+      display: grid;
+      grid-template-columns: 1fr 400px;
+      gap: 60px;
+      align-items: center;
+    }
+    .lp-bottom-cta h2 {
+      font-family: var(--font-heading);
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 16px;
+      line-height: 1.28;
+    }
+    .lp-bottom-cta p {
+      color: rgba(255,255,255,0.75);
+      font-size: 1rem;
+      margin-bottom: 28px;
+      line-height: 1.7;
+    }
+    .lp-bottom-cta .lp-hero-phone { font-size: 1.3rem; padding: 16px 30px; }
+    .lp-bottom-bullets { list-style: none; margin-bottom: 32px; display: flex; flex-direction: column; gap: 10px; }
+    .lp-bottom-bullets li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,0.85);
+      font-size: 0.95rem;
+      font-family: var(--font-heading);
+      font-weight: 600;
+    }
+    .lp-bottom-bullets li i { color: var(--orange); font-size: 0.85rem; }
+    .lp-bottom-form {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 36px 32px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .lp-bottom-form h3 {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .lp-bottom-form .form-group { margin-bottom: 14px; }
+    .lp-bottom-form input,
+    .lp-bottom-form select {
+      width: 100%;
+      padding: 13px 16px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 0.93rem;
+      color: var(--gray-dark);
+      transition: var(--transition);
+      background: var(--white);
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .lp-bottom-form input:focus,
+    .lp-bottom-form select:focus {
+      outline: none;
+      border-color: var(--navy);
+      box-shadow: 0 0 0 3px rgba(27,52,97,0.08);
+    }
+
+    /* Footer */
+    .lp-footer {
+      background: #0D1B35;
+      padding: 32px 0;
+      text-align: center;
+    }
+    .lp-footer img { height: 48px; width: auto; margin: 0 auto 16px; }
+    .lp-footer-contact {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .lp-footer-contact a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.65);
+      font-size: 0.9rem;
+      transition: var(--transition);
+      text-decoration: none;
+    }
+    .lp-footer-contact a i { color: var(--orange); font-size: 0.82rem; }
+    .lp-footer-contact a:hover { color: var(--orange-light); }
+    .lp-footer-legal { color: rgba(255,255,255,0.3); font-size: 0.78rem; }
+    .lp-footer-legal a { color: rgba(255,255,255,0.4); }
+
+    /* Floating mobile CTA */
+    .lp-mobile-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--orange);
+      color: var(--white);
+      padding: 16px 24px;
+      text-align: center;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.05rem;
+      z-index: 999;
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 -4px 20px rgba(224,127,30,0.35);
+    }
+    .lp-mobile-cta i { font-size: 1rem; }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .lp-hero-grid { grid-template-columns: 1fr; gap: 40px; }
+      .lp-hero-form { max-width: 500px; }
+      .lp-services-grid { grid-template-columns: repeat(3, 1fr); }
+      .lp-why-grid { grid-template-columns: repeat(2, 1fr); }
+      .lp-bottom-cta-grid { grid-template-columns: 1fr; }
+      .lp-bottom-form { max-width: 500px; }
+    }
+    @media (max-width: 768px) {
+      .lp-header-tagline { display: none; }
+      .lp-hero { padding: 40px 0 60px; }
+      .lp-hero-content h1 { font-size: 2rem; }
+      .lp-hero-phone { font-size: 1.15rem; padding: 15px 24px; }
+      .lp-services-grid { grid-template-columns: repeat(2, 1fr); }
+      .lp-why-grid { grid-template-columns: 1fr 1fr; }
+      .lp-reviews-grid { grid-template-columns: 1fr; }
+      .lp-bottom-cta h2 { font-size: 1.75rem; }
+      .lp-mobile-cta { display: flex; }
+      body { padding-bottom: 64px; }
+      .lp-trust-divider { display: none; }
+    }
+    @media (max-width: 480px) {
+      .lp-services-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .lp-why-grid { grid-template-columns: 1fr; }
+      .lp-hero-content h1 { font-size: 1.75rem; }
+      .lp-call-btn { padding: 10px 16px; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STICKY HEADER — Logo + Phone only -->
+  <header class="lp-header">
+    <div class="container lp-header-inner">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Velo Property Solutions">
+      </a>
+      <div class="lp-header-right">
+        <span class="lp-header-tagline">
+          <i class="fas fa-map-marker-alt"></i> Serving All of Maricopa County, AZ
+        </span>
+        <a href="tel:6023253235" class="lp-call-btn">
+          <i class="fas fa-phone"></i> (602) 325-3235
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="lp-hero">
+    <div class="container">
+      <div class="lp-hero-grid">
+
+        <!-- Left — Headline & Trust -->
+        <div class="lp-hero-content">
+          <div class="lp-hero-badge">
+            <i class="fas fa-star"></i> Maricopa County's Trusted Property Solutions Company
+          </div>
+          <h1>Professional Cleaning &amp; Property Maintenance for <span>Maricopa County Businesses</span></h1>
+          <p>From spotless offices and medical facilities to pressure-washed parking lots and fresh landscaping — Velo Property Solutions handles it all. Licensed, insured, and satisfaction guaranteed on every job.</p>
+
+          <a href="tel:6023253235" class="lp-hero-phone">
+            <i class="fas fa-phone"></i> Call Now: (602) 325-3235
+          </a>
+          <div class="lp-hero-or">OR FILL OUT THE FORM</div>
+
+          <div class="lp-hero-trust-row">
+            <div class="lp-trust-pill"><i class="fas fa-shield-alt"></i> Licensed &amp; Insured</div>
+            <div class="lp-trust-pill"><i class="fas fa-star"></i> 5-Star Rated</div>
+            <div class="lp-trust-pill"><i class="fas fa-bolt"></i> Fast Response</div>
+            <div class="lp-trust-pill"><i class="fas fa-thumbs-up"></i> 100% Satisfaction Guaranteed</div>
+          </div>
+        </div>
+
+        <!-- Right — Form -->
+        <div class="lp-hero-form">
+          <div class="lp-form-header">
+            <div class="lp-form-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <div class="lp-form-rating">5-Star Rated on Google</div>
+            <h3>Get Your Free Quote</h3>
+            <p>We respond within 24 hours — usually faster.</p>
+          </div>
+          <div class="form-success" id="form-success-hero">
+            <i class="fas fa-check-circle"></i>&nbsp; Got it! We'll be in touch very soon.
+          </div>
+          <form id="hero-form" novalidate>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Full Name *" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Phone Number *" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address *" required>
+            </div>
+            <div class="form-group">
+              <select name="service">
+                <option value="">Select a Service...</option>
+                <option>Janitorial Cleaning</option>
+                <option>Medical Facility Cleaning</option>
+                <option>Office Cleaning</option>
+                <option>Warehouse Cleaning</option>
+                <option>Carpet Cleaning</option>
+                <option>Floor Stripping &amp; Waxing</option>
+                <option>Pressure Washing</option>
+                <option>Window Cleaning</option>
+                <option>Landscaping</option>
+                <option>Line Striping</option>
+                <option>Waste Management</option>
+                <option>Post-Construction Cleaning</option>
+                <option>Property Maintenance</option>
+                <option>Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select name="city">
+                <option value="">Your City...</option>
+                <option>Phoenix</option>
+                <option>Scottsdale</option>
+                <option>Mesa</option>
+                <option>Tempe</option>
+                <option>Chandler</option>
+                <option>Gilbert</option>
+                <option>Glendale</option>
+                <option>Peoria</option>
+                <option>Surprise</option>
+                <option>Avondale</option>
+                <option>Goodyear</option>
+                <option>Buckeye</option>
+                <option>Queen Creek</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Tell us about your property (optional)..."></textarea>
+            </div>
+            <button type="submit" class="lp-form-submit">
+              <i class="fas fa-paper-plane"></i> Send My Free Quote Request
+            </button>
+          </form>
+          <p class="lp-form-privacy"><i class="fas fa-lock"></i> We never share your information.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="lp-trust-bar">
+    <div class="container trust-items">
+      <div class="trust-item">
+        <i class="fas fa-shield-alt"></i>
+        <div><strong>Licensed &amp; Insured</strong><span>Fully bonded &amp; covered</span></div>
+      </div>
+      <div class="lp-trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-star"></i>
+        <div><strong>5-Star Rated</strong><span>Google verified</span></div>
+      </div>
+      <div class="lp-trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-clock"></i>
+        <div><strong>24-Hour Response</strong><span>We get back to you fast</span></div>
+      </div>
+      <div class="lp-trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-user-check"></i>
+        <div><strong>Background Checked</strong><span>Every team member</span></div>
+      </div>
+      <div class="lp-trust-divider"></div>
+      <div class="trust-item">
+        <i class="fas fa-thumbs-up"></i>
+        <div><strong>100% Guaranteed</strong><span>On every single job</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="lp-services">
+    <div class="container">
+      <div class="lp-services-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>13 Services. One Trusted Company.</h2>
+        <p>Everything your commercial property needs — all from one reliable local team throughout Maricopa County.</p>
+      </div>
+      <div class="lp-services-grid">
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-broom"></i></div>
+          <span>Janitorial Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-hospital"></i></div>
+          <span>Medical Facility Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-building"></i></div>
+          <span>Office Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-warehouse"></i></div>
+          <span>Warehouse Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-compress-arrows-alt"></i></div>
+          <span>Carpet Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-star-of-life"></i></div>
+          <span>Floor Stripping &amp; Waxing</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-tint"></i></div>
+          <span>Pressure Washing</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-window-maximize"></i></div>
+          <span>Window Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-leaf"></i></div>
+          <span>Landscaping</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-road"></i></div>
+          <span>Line Striping</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-trash-alt"></i></div>
+          <span>Waste Management</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-hard-hat"></i></div>
+          <span>Post-Construction Cleaning</span>
+        </div>
+        <div class="lp-service-item">
+          <div class="lp-service-item-icon"><i class="fas fa-tools"></i></div>
+          <span>Property Maintenance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY VELO -->
+  <section class="lp-why">
+    <div class="container">
+      <div class="lp-why-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Why Maricopa County Businesses Choose Velo</h2>
+        <p>We're not a national chain. We're a local Maricopa County company that shows up, does the work right, and stands behind it.</p>
+      </div>
+      <div class="lp-why-grid">
+        <div class="lp-why-card">
+          <div class="lp-why-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Locally Owned &amp; Operated</h3>
+          <p>We're based right here in Maricopa County. Faster response, real accountability, and a team that cares about local businesses.</p>
+        </div>
+        <div class="lp-why-card">
+          <div class="lp-why-card-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Licensed, Bonded &amp; Insured</h3>
+          <p>Every team member is background-checked. You have zero liability and full peace of mind on every job we complete.</p>
+        </div>
+        <div class="lp-why-card">
+          <div class="lp-why-card-icon"><i class="fas fa-sliders-h"></i></div>
+          <h3>Custom Plans for Every Client</h3>
+          <p>No cookie-cutter contracts. We build a service plan around your property, your schedule, and your budget.</p>
+        </div>
+        <div class="lp-why-card">
+          <div class="lp-why-card-icon"><i class="fas fa-check-double"></i></div>
+          <h3>Satisfaction Guaranteed</h3>
+          <p>If something isn't right, we come back and make it right. No questions asked. That's our promise on every job.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="lp-reviews">
+    <div class="container">
+      <div class="lp-reviews-header">
+        <span class="section-tag">What Clients Say</span>
+        <h2>Trusted by Businesses Across Maricopa County</h2>
+      </div>
+      <div class="lp-reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Velo has been maintaining our office complex for over two years. The team is professional, thorough, and always on time. Our tenants constantly comment on how clean the building is."</p>
+          <div class="review-author">
+            <div class="review-avatar">M</div>
+            <div><strong>Michael R.</strong><span>Property Manager · Phoenix, AZ</span></div>
+            <img src="images/google-logo.svg" alt="Google Review" class="review-google-icon">
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"We run a medical clinic and cleanliness standards are non-negotiable. Velo follows proper protocols, uses the right products, and our facility has never looked better. Exceptional."</p>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div><strong>Sarah K.</strong><span>Clinic Director · Scottsdale, AZ</span></div>
+            <img src="images/google-logo.svg" alt="Google Review" class="review-google-icon">
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Had our warehouse and parking lot done — the results were incredible. Pricing was fair, the crew was efficient, and they finished ahead of schedule. Will absolutely use Velo again."</p>
+          <div class="review-author">
+            <div class="review-avatar">D</div>
+            <div><strong>David T.</strong><span>Operations Manager · Chandler, AZ</span></div>
+            <img src="images/google-logo.svg" alt="Google Review" class="review-google-icon">
+          </div>
+        </div>
+      </div>
+      <!-- Overall rating bar -->
+      <div class="reviews-cta">
+        <div class="overall-rating">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <span class="rating-num">5.0</span>
+          <span class="rating-label">Average Google Rating</span>
+        </div>
+        <a href="tel:6023253235" class="btn btn-orange btn-lg">
+          <i class="fas fa-phone"></i> Call (602) 325-3235 Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA + FORM -->
+  <section class="lp-bottom-cta">
+    <div class="container">
+      <div class="lp-bottom-cta-grid">
+        <div>
+          <h2>Ready to Get a Free Quote for Your Maricopa County Property?</h2>
+          <p>We respond fast, show up on time, and get the job done right. No long-term contracts required to get started.</p>
+          <ul class="lp-bottom-bullets">
+            <li><i class="fas fa-check"></i> Free, no-obligation quote</li>
+            <li><i class="fas fa-check"></i> Response within 24 hours</li>
+            <li><i class="fas fa-check"></i> Licensed, bonded &amp; insured</li>
+            <li><i class="fas fa-check"></i> 100% satisfaction guaranteed</li>
+          </ul>
+          <a href="tel:6023253235" class="lp-hero-phone" style="max-width: 320px;">
+            <i class="fas fa-phone"></i> (602) 325-3235
+          </a>
+        </div>
+        <div class="lp-bottom-form">
+          <h3>Or Send Us a Message</h3>
+          <div class="form-success" id="form-success-bottom">
+            <i class="fas fa-check-circle"></i>&nbsp; Got it! We'll be in touch very soon.
+          </div>
+          <form id="bottom-form" novalidate>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Full Name *" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Phone Number *" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address" >
+            </div>
+            <div class="form-group">
+              <select name="service">
+                <option value="">Select a Service...</option>
+                <option>Janitorial Cleaning</option>
+                <option>Medical Facility Cleaning</option>
+                <option>Office Cleaning</option>
+                <option>Warehouse Cleaning</option>
+                <option>Carpet Cleaning</option>
+                <option>Floor Stripping &amp; Waxing</option>
+                <option>Pressure Washing</option>
+                <option>Window Cleaning</option>
+                <option>Landscaping</option>
+                <option>Line Striping</option>
+                <option>Waste Management</option>
+                <option>Post-Construction Cleaning</option>
+                <option>Property Maintenance</option>
+                <option>Multiple Services</option>
+              </select>
+            </div>
+            <button type="submit" class="lp-form-submit">
+              <i class="fas fa-paper-plane"></i> Get My Free Quote
+            </button>
+          </form>
+          <p class="lp-form-privacy" style="margin-top:10px;"><i class="fas fa-lock"></i> We never share your information.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="lp-footer">
+    <div class="container">
+      <img src="images/logo.png" alt="Velo Property Solutions">
+      <div class="lp-footer-contact">
+        <a href="tel:6023253235"><i class="fas fa-phone"></i> (602) 325-3235</a>
+        <a href="mailto:info@veloaz.com"><i class="fas fa-envelope"></i> info@veloaz.com</a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i> Serving All of Maricopa County, AZ</a>
+      </div>
+      <p class="lp-footer-legal">
+        &copy; 2025 Velo Property Solutions LLC. All Rights Reserved. | <a href="index.html">Back to Main Site</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating mobile call bar -->
+  <a href="tel:6023253235" class="lp-mobile-cta">
+    <i class="fas fa-phone"></i> Tap to Call (602) 325-3235
+  </a>
+
+  <script>
+    // Hero form
+    const heroForm = document.getElementById('hero-form');
+    if (heroForm) {
+      heroForm.addEventListener('submit', e => {
+        e.preventDefault();
+        let valid = true;
+        heroForm.querySelectorAll('[required]').forEach(f => {
+          f.style.borderColor = '';
+          if (!f.value.trim()) { f.style.borderColor = '#E53E3E'; valid = false; }
+        });
+        if (!valid) return;
+        const s = document.getElementById('form-success-hero');
+        s.style.display = 'flex';
+        heroForm.reset();
+        s.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => { s.style.display = 'none'; }, 9000);
+      });
+    }
+    // Bottom form
+    const bottomForm = document.getElementById('bottom-form');
+    if (bottomForm) {
+      bottomForm.addEventListener('submit', e => {
+        e.preventDefault();
+        let valid = true;
+        bottomForm.querySelectorAll('[required]').forEach(f => {
+          f.style.borderColor = '';
+          if (!f.value.trim()) { f.style.borderColor = '#E53E3E'; valid = false; }
+        });
+        if (!valid) return;
+        const s = document.getElementById('form-success-bottom');
+        s.style.display = 'flex';
+        bottomForm.reset();
+        s.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => { s.style.display = 'none'; }, 9000);
+      });
+    }
+    // Navbar scroll shadow
+    const header = document.querySelector('.lp-header');
+    window.addEventListener('scroll', () => {
+      header.style.boxShadow = window.scrollY > 30
+        ? '0 4px 24px rgba(27,52,97,0.18)'
+        : '0 2px 16px rgba(27,52,97,0.12)';
+    });
+    // Animate service cards on scroll
+    const items = document.querySelectorAll('.lp-service-item, .lp-why-card, .review-card');
+    items.forEach(el => { el.style.opacity = '0'; el.style.transform = 'translateY(16px)'; el.style.transition = 'opacity 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease, border-color 0.3s ease'; });
+    const reveal = () => { items.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight - 60) { el.style.opacity = '1'; el.style.transform = 'translateY(0)'; } }); };
+    window.addEventListener('scroll', reveal, { passive: true });
+    window.addEventListener('load', reveal);
+  </script>
+
+</body>
+</html>
